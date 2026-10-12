@@ -1,0 +1,17 @@
+{
+  "primary": "Geraldine",
+  "participants": [
+    {
+      "name": "Geraldine",
+      "model": "UNVERIFIED_EXACT_CHATGPT_MODEL",
+      "endpoint": "",
+      "key_env": "GERALDINE_API_KEY"
+    },
+    {
+      "name": "Sparrow",
+      "model": "Muse Wonder (reported, API unverified)",
+      "endpoint": "",
+      "key_env": "SPARROW_API_KEY"
+    }
+  ]
+}
