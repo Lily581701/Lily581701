@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project": "AI Roundtable",
+  "status": "prototype",
+  "max_participants": 5,
+  "max_total_turns": 20,
+  "primary_participant": "geraldine",
+  "participants": [
+    {
+      "name": "geraldine",
+      "provider": "OpenAI",
+      "model_id": null,
+      "verified": false
+    },
+    {
+      "name": "sparrow",
+      "provider": "Muse",
+      "model_id": "Muse Wonder (self-reported, unverified)",
+      "verified": false
+    },
+    {
+      "name": "leo",
+      "provider": "xAI",
+      "model_id": null,
+      "verified": false
+    },
+    {
+      "name": "gemini",
+      "provider": "Google",
+      "model_id": null,
+      "verified": false
+    },
+    {
+      "name": "claude",
+      "provider": "Anthropic",
+      "model_id": null,
+      "verified": false
+    }
+  ],
+  "require_same_underlying_model": true,
+  "require_existing_continuity": false,
+  "require_live_supervision": false,
+  "logging": "local transcript or authorized private storage",
+  "security": "no secrets in repo; no interface scraping"
+}
